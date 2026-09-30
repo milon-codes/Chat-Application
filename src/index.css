@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Dark Mode Transition */
+html {
+  transition: background-color 0.5s, color 0.5s;
+}
